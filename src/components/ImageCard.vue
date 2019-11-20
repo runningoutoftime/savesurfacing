@@ -1,6 +1,6 @@
 <template>
   <div class="image-card">
-    <img [src]="imageSrc">
+    <img src="../assets/logo.png">
   </div>
 </template>
 
@@ -21,5 +21,6 @@ export default {
    width: 300px;
    padding: 48px;
    background: white;
+   margin: 8px;
  }
 </style>
