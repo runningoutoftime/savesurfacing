@@ -2,7 +2,7 @@
   <div class="intro">
     <span>S.A.V.E Surfacing</span>
     <p>We provide high quality Sport Court Surfacing at fair prices. Custom Designs are Available! </p>
-    <button>Contact Us Today</button>
+    <a href="/contact">Contact Us Today</a>
   </div>
 </template>
 
@@ -27,7 +27,7 @@ export default {
    background: white;
    font-size: 22px;
  }
- button {
+ a {
   color: white;
   padding: 16px;
   background: #42b983;

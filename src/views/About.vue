@@ -1,6 +1,6 @@
 <template>
   <div class="about">
-    <h1>Save Surfacing</h1>
-    <p>Save Surfacing is a surfacing company...</p>
+    <h1>Contact Save Surfacing</h1>
+    <p>(323) 605-6346</p>
   </div>
 </template>
