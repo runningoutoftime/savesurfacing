@@ -1,21 +1,7 @@
 <template>
   <div class="home">
     <div class="row">
-      <IntroMessage class="order-1" v-if="$mq != 'lg'"></IntroMessage>
-      <img class="image-card" src="../assets/court1.jpg"/>
-      <img class="image-card" src="../assets/court2.jpg"/>
-      <img class="image-card" src="../assets/court3.jpg"/>
-      <IntroMessage class="large-flex" v-if="$mq === 'lg'"></IntroMessage>
-      <img class="image-card" src="../assets/court4.jpg"/>
-      <img class="image-card" src="../assets/court5.jpg"/>
-      <img class="image-card" src="../assets/court6.jpg"/>
-      <img class="image-card" src="../assets/court7.jpeg"/>
-      <img class="image-card" src="../assets/court8.jpg"/>
-      <img class="image-card" src="../assets/court9.jpg"/>
-      <!-- <IntroMessage class="large-flex" v-if="$mq === 'lg'"></IntroMessage> -->
-      <img class="image-card" src="../assets/court10.jpg"/>
-      <img class="image-card" src="../assets/court11.jpg"/>
-      <img class="image-card" src="../assets/court12.jpg"/>
+      <IntroMessage></IntroMessage>
     </div>
   </div>
 </template>
